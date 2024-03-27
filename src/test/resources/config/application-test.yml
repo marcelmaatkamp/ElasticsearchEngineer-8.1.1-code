@@ -1,0 +1,9 @@
+spring:
+  main:
+    banner-mode: 'off'
+logging:
+  level:
+    learn:
+      elastic:
+        co: 'OFF'
+  config: classpath:logback.xml

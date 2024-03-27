@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: JhipsterSampleApplication
+  threads:
+    virtual:
+      enabled: true
+logging:
+  level:
+    learn:
+      elastic:
+        co: INFO
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - configprops
+        - env
+        - health
+        - info
+        - logfile
+        - loggers
+        - threaddump
+      base-path: /management
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: always

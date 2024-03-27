@@ -1,0 +1,10 @@
+{
+  "name": "jhipster-sample-application",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Elasticsearch Course",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.11.1"
+  }
+}
